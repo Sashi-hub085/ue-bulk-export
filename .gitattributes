@@ -1,0 +1,10 @@
+# Exclude build artifacts
+# Text file normalization   
+vendor/* linguist-vendored
+*.map linguist-generated
+src/**/*.astro linguist-detectable
+
+*.sh text eol=lf
+*.astro linguist-detectable
+*.yml linguist-detectable=false
+public/**/*.html linguist-vendored
